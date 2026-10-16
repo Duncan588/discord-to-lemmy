@@ -1,0 +1,6 @@
+.env
+lemmy.hjson
+data/
+volumes/
+bin/
+*.log

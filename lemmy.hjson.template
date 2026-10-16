@@ -1,0 +1,8 @@
+{
+  hostname: "${LEMMY_HOST}"
+  tls_enabled: false
+  pictrs: { url: "http://pictrs:8080/", api_key: "${PICTRS_API_KEY}" }
+  database: { host: "postgres", user: "lemmy", password: "${PG_PW}", database: "lemmy", port: 5432 }
+  setup: { admin_username: "${ADMIN_USER}", admin_password: "${ADMIN_PW}", site_name: "Discord Archive" }
+  email: null
+}
